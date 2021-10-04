@@ -17,9 +17,8 @@ namespace Tartarus
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void TextBox1_Click(object sender, EventArgs e)
         {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -45,6 +44,20 @@ namespace Tartarus
         private void button5_Click(object sender, EventArgs e)
         {
             webBrowser1.Navigate(textBox1.Text);
+        }
+
+
+        private void Form1_Load(object sender, System.EventArgs e)
+        {
+            webBrowser1.Navigate("www.link4real.github.io");
+        }
+
+        private void textBox1_KeyDown(object sender, System.Windows.Forms.KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                webBrowser1.Navigate(textBox1.Text);
+            }
         }
     }
 }
