@@ -45,10 +45,10 @@ namespace Tartarus
             this.webBrowser1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.webBrowser1.Location = new System.Drawing.Point(0, 52);
+            this.webBrowser1.Location = new System.Drawing.Point(0, 41);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(800, 399);
+            this.webBrowser1.Size = new System.Drawing.Size(800, 410);
             this.webBrowser1.TabIndex = 0;
             // 
             // button2
@@ -120,7 +120,6 @@ namespace Tartarus
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(487, 20);
             this.textBox1.TabIndex = 7;
-            this.textBox1.Text = "Enter URL";
             this.textBox1.TextChanged += new System.EventHandler(this.TextBox1_Click);
             // 
             // Form1
@@ -139,7 +138,7 @@ namespace Tartarus
             this.Controls.Add(this.webBrowser1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Tartarus Browser";
+            this.Text = "Tartarus Browser by Link4real";
             this.ResumeLayout(false);
             this.PerformLayout();
 
